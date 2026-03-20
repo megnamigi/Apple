@@ -1,0 +1,324 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #111;
+}
+
+/* ============ Header ========== */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  z-index: 10;
+  position: fixed;
+  inset-inline: 0;
+  column-gap: 24px;
+  background: #f5f5f7;
+  padding: 0 20px;
+  height: 48px;
+  backdrop-filter: blur (10px);
+  border-bottom: 1px solid #ddd;
+}
+.header__icon {
+  width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Logo */
+
+.header_icon img {
+  height: 16px;
+}
+
+/* nav links  */
+
+.header_link {
+  margin: 0 10px;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+.header_link:hover {
+  color: #000;
+}
+
+/* Right icons */
+.header_icon {
+  display: flex;
+  gap: 15px;
+}
+
+.header_icon img {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+/* Center class */
+
+.center {
+  display: flex;
+  align-items: center;
+}
+/* banner */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "inter", serif;
+  @media (max-width: 1024px;) margin-top: 48px;
+  padding-block: 12px;
+}
+
+.donation-banner {
+  text-align: center;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-weight: 500;
+  background: #f5f5f7;
+  color: #1d1d1f;
+}
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+/* ====== HERO 1 ====== */
+
+.hero-containers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 50px;
+  width: 1920px;
+  height:;
+}
+.hero-container-pro {
+  text-align: center;
+  padding: 80px 20px;
+}
+/* title */
+.hero-container-pro {
+  width: 1920px;
+  height: 692px;
+  background-image: url("Figure.png");
+  color: white;
+}
+.hero-title {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.hero-subhead {
+  font-size: 22px;
+  margin-top: 10px;
+  color: #6e6e73;
+}
+
+/* buttons */
+
+.hero-buttons {
+  margin-top: 20px;
+}
+.button1 {
+  padding: 10px 18px;
+  border-radius: 20px;
+  border: none;
+  background: #0071e3;
+  color: white;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 5px;
+}
+
+.button--primary1 {
+  background: #0071e3;
+  color: white;
+}
+/* ===== HERO 2 ===== */
+
+.hero-container-iphone-16 {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero-container-iphone-16 {
+  width: 1920px;
+  height: 692px;
+  background-image: url("Figure 2.png");
+  color: white;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.hero-subhead {
+  font-size: 22px;
+  margin-top: 10px;
+  color: #6e6e73;
+}
+
+/* buttons */
+.hero-buttons {
+  margin-top: 20px;
+}
+.button2 {
+  padding: 10px 18px;
+  border-radius: 20px;
+  border: none;
+  background: none;
+  color: white;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 5px;
+}
+
+.button--primary2 {
+  background: white;
+  color: black;
+}
+/* ====== GIFT ====== */
+
+.hero-container-gift-magic {
+  display: flex;
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero-container-gift-magic {
+  width: 1920px;
+  height: 692px;
+  background-image: url("Figure 3.png");
+  color: #000;
+}
+.hero-gift {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 100%;
+}
+.hero-title {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.hero-subhead {
+  font-size: 22px;
+  margin-top: 10px;
+  color: #6e6e73;
+}
+
+/* buttons */
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.button {
+  padding: 10px 18px;
+  border-radius: 20px;
+  border: none;
+  background: #0071e3;
+  color: white;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 5px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 50px;
+  width: 1920px;
+  height: 1764px;
+}
+.card h3 {
+  display: flex;
+  margin-bottom: 15px;
+}
+.card p {
+  margin-bottom: 20px;
+  align-items: stretch;
+}
+.card h4 {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid #0071e3;
+  background: #0071e3;
+  color: white;
+  cursor: pointer;
+}
+
+.outline {
+  padding: 10px 18px;
+  border-radius: 20px;
+  border: #0071e3;
+  color: #0071e3;
+  margin: 5px;
+  cursor: pointer;
+}
+.card-1 {
+  background-image: url("ipad.png");
+  padding: 40px;
+  min-height: 200px;
+  text-align: center;
+}
+
+.card-2 {
+  background-image: url("airpods.png");
+  padding: 40px;
+  min-height: 200px;
+  text-align: center;
+  color: white;
+}
+.card-3 {
+  background-image: url("watch.png");
+  padding: 40px;
+  min-height: 200px;
+  text-align: center;
+}
+.card-4 {
+  background-image: url("macbook.png");
+  padding: 40px;
+  min-height: 200px;
+  text-align: center;
+}
+.card-5 {
+  background-image: url("trade.png");
+  padding: 40px;
+  min-height: 200px;
+  text-align: center;
+}
+.card-6 {
+  background-image: url("card.png");
+  padding: 40px;
+  min-height: 200px;
+  text-align: center;
+}
