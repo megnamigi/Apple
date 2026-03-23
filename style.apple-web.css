@@ -6,6 +6,7 @@
 }
 
 body {
+  background-size: 100%;
   background: #fff;
   color: #111;
 }
@@ -99,8 +100,8 @@ div {
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
   padding: 50px;
-  width: 1920px;
-  height:;
+  width: 100%;
+  height:692px;
 }
 .hero-container-pro {
   text-align: center;
@@ -108,10 +109,14 @@ div {
 }
 /* title */
 .hero-container-pro {
-  width: 1920px;
+  width: 100%px;
   height: 692px;
-  background-image: url("Figure.png");
+  background-image: url("/images/Figure.png");
   color: white;
+  padding-block: 55px 36px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .hero-title {
   font-size: 48px;
@@ -154,10 +159,13 @@ div {
 }
 
 .hero-container-iphone-16 {
-  width: 1920px;
+  width: 100%px;
   height: 692px;
-  background-image: url("Figure 2.png");
+  background-image: url("/images/Figure\ 2.png");
   color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-title {
@@ -192,6 +200,7 @@ div {
   background: white;
   color: black;
 }
+
 /* ====== GIFT ====== */
 
 .hero-container-gift-magic {
@@ -199,11 +208,15 @@ div {
   text-align: center;
   padding: 80px 20px;
 }
+
 .hero-container-gift-magic {
-  width: 1920px;
+  width: 100%;
   height: 692px;
-  background-image: url("Figure 3.png");
+  background-image: url("/images/Figure\ 3.png");
   color: #000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .hero-gift {
   display: flex;
@@ -246,7 +259,7 @@ div {
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
   padding: 50px;
-  width: 1920px;
+  width: 100%;
   height: 1764px;
 }
 .card h3 {
@@ -267,58 +280,215 @@ div {
   line-height: normal;
   letter-spacing: 2px;
 }
-.button {
+.grid-buttons {
+  margin-top: 15px;
+  display: block;
+  unicode-bidi: isolate;
+  box-sizing: border-box;
+  font-family: "inter", serif;
+}
+.button3 {
   padding: 8px 16px;
   border-radius: 20px;
   border: 1px solid #0071e3;
-  background: #0071e3;
-  color: white;
   cursor: pointer;
+  padding-block: 12px;
 }
 
-.outline {
+.outline3 {
   padding: 10px 18px;
   border-radius: 20px;
+  box-sizing: border-box;
   border: #0071e3;
+  background: none;
   color: #0071e3;
   margin: 5px;
   cursor: pointer;
+  background: none;
+  padding-block: 12px;
 }
 .card-1 {
-  background-image: url("ipad.png");
+  flex-direction: column;
+  justify-content: start;
+  width: 100%;
+  background-image: url("/images/ipad.png");
   padding: 40px;
   min-height: 200px;
   text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card-2 {
-  background-image: url("airpods.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background-image: url("/images/airpods.png");
   padding: 40px;
   min-height: 200px;
   text-align: center;
   color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;w
 }
 .card-3 {
-  background-image: url("watch.png");
+  background-image: url("/images/watch.png");
   padding: 40px;
   min-height: 200px;
   text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .card-4 {
-  background-image: url("macbook.png");
+  background-image: url("images/macbook.png");
   padding: 40px;
   min-height: 200px;
   text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .card-5 {
-  background-image: url("trade.png");
+  background-image: url("images/trade.png");
   padding: 40px;
   min-height: 200px;
   text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .card-6 {
-  background-image: url("card.png");
+  background-image: url("/images/card.png");
   padding: 40px;
   min-height: 200px;
   text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ====== MEDIA ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "inter", serif;
+}
+.media-carousel {
+  width: 100vw;
+  display: flex;
+  column-gap: 15px;
+  overflow-x: scroll;
+  align-items: center;
+  align-items: center;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel-slide {
+  width: 1250px;
+  height: 668px;
+  color: white;
+  flex-shrink: 0;
+  font-size: 20px;
+  position: relative;
+  scroll-snap-align: center;
+  background-size: cover;
+}
+.carousel-info {
+  left: 47px;
+  bottom: 38px;
+  position: absolute;
+}
+.carousel-info-buttons {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 12px 20px;
+  margin-right: 14px;
+  gap: 10px;
+  border-radius: 999px;
+  background-color: #f5f5f7;
+}
+
+/* Bullets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+
+.bullets {
+    display: flex;
+    margin-top: 14px;
+    justify-content: center;
+}
+.slider-wrapper {
+    width: 100%;
+    overflow: hidden;
+    height: var(--height);
+    padding-top: 12px;
+    --width: 417px;
+    --height: 236px;
+    --quantity: 10;
+}
+.slider {
+    width: 100%;
+    display: flex;
+    position: relative;
+    min-width: calc(var(--width) * var(--quantity));
+}
+.slider-item {
+    left: 100%;
+    position: absolute;
+    width: var(--width);
+    height: var(--height);
+    transition: filter 0.5s;
+    background-color: var(--bg-color);
+    animation: slider 60s linear infinite;
+    animation-delay: calc((56.5s / var(--quantity)) * (var(--item) - 6.5));
+}
+.slider-content {
+    width: 100%;
+    height: 100%;
+    display: flex
+;
+    column-gap: 15px;
+    font-weight: bold;
+    position: relative;
+    align-items: center;
+    color: var(--color);
+}
+.slider-image-small {
+    width: 196px;
+    height: 196px;
+    overflow: hidden;
+    margin-left: 15px;
+    border-radius: 8px;
+}
+.slider-overlay {
+    inset: 0;
+    opacity: 0;
+    display: flex
+;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.slider-button {
+    opacity: 0;
+    border: none;
+    margin-top: 20px;
+    padding: 7px 15px;
+    border-radius: 999px;
+    background-color: white;
 }
