@@ -406,15 +406,14 @@ div {
   bottom: 38px;
   position: absolute;
 }
-.carousel-info-buttons {
+.carousel-button {
+  border: none;
   display: inline-flex;
-  align-items: center;
   cursor: pointer;
   font-size: 17px;
   font-weight: 400;
-  padding: 12px 20px;
+  padding: 11px 21px;
   margin-right: 14px;
-  gap: 10px;
   border-radius: 999px;
   background-color: #f5f5f7;
 }
