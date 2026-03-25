@@ -72,8 +72,7 @@ body {
   align-items: center;
 }
 /* banner */
-@media (max-width: 100%) {
-}
+
 .donation-banner {
   margin-top: 48px;
   padding-block: 12px;
@@ -123,7 +122,7 @@ div {
 .hero-subhead {
   font-size: 22px;
   margin-top: 10px;
-  color: #6e6e73;
+  color: #c4c4c9;
 }
 
 /* buttons */
@@ -254,7 +253,9 @@ div {
 .hero-container-ipad {
   display: none;
 }
-
+.hero-container-pro2 {
+  display: none;
+}
 /* GRID */
 .grid {
   display: grid;

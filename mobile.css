@@ -1,0 +1,11 @@
+@media (max-width: 390px) {
+  .hero-containers-pro {
+    display: none;
+  }
+  .hero-container-pro2 {
+    width: 390px;
+    height: 500px;
+    background-image: url("images/mobile-1.png");
+    align-items: flex-end;
+  }
+}
