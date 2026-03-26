@@ -3,10 +3,6 @@
   .header__icon img {
     justify-content: flex-start;
   }
-  /* left icon */
-  .header__icons {
-    flex
-  }
   .header__link {
     display: none;
   }
