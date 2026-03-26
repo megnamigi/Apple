@@ -1,4 +1,12 @@
 @media (max-width: 1024px) {
+  
+  .header__icon img {
+    justify-content: flex-start;
+  }
+  /* left icon */
+  .header__icons {
+    flex
+  }
   .header__link {
     display: none;
   }
@@ -44,17 +52,12 @@
     line-height: normal;
     letter-spacing: 2px;
   }
-  .h5 {
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    font-family: Inter;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 18px; /* 128.571% */
-    color: linear-gradient(#0090f7, #ba62fc, #f2416b, #f55600);
+
+  .bottom-text {
+    background: linear-gradient(#0090f7, #ba62fc, #f2416b, #f55600);
     background-clip: text;
+    -webkit-background-composite: text;
+    -webkit-background-composite: transparent;
   }
   .grid-buttons {
     font-size: 17px;
@@ -92,6 +95,9 @@
   .card-2 {
     display: none;
   }
+  .card-3 {
+    background-image: url(images/watch2.png);
+  }
   .card-5 {
     display: none;
   }
@@ -111,15 +117,7 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .card-8 {
-    background-image: url("images/watch2.png");
-    padding: 40px;
-    min-height: 200px;
-    text-align: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  
   .card-9 {
     background-image: url("images/Figure\ 9.png");
     padding: 40px;

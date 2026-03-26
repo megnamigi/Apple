@@ -1,11 +1,28 @@
 @media (max-width: 390px) {
-  .hero-containers-pro {
+  .hero-container-pro {
+    background-image: url("./images/mobile-1.png");
+    align-items: end;
+  }
+
+  .hero-container-iphone-16 {
+    background-image: url(images/mobile-2.png);
+  }
+  .grid {
+    margin: 5px;
+    width: 390px;
+    grid-template-columns: none;
+    padding: 0;
+    gap: 10px;
+  }
+  .carousel-slide {
+    width: 274px;
+    height: 495px;
+  }
+  .carousel-info {
     display: none;
   }
-  .hero-container-pro2 {
-    width: 390px;
-    height: 500px;
-    background-image: url("images/mobile-1.png");
-    align-items: flex-end;
+  .slider-item {
+    width: 238px;
+    height: 134px;
   }
 }

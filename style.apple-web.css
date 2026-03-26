@@ -253,7 +253,7 @@ div {
 .hero-container-ipad {
   display: none;
 }
-.hero-container-pro2 {
+.hero-container-pro-mobile {
   display: none;
 }
 /* GRID */
@@ -264,8 +264,10 @@ div {
   padding: 50px;
   width: 100%;
   height: 1764px;
+  background: white;
 }
 .card h3 {
+  justify-content: center;
   display: flex;
   margin-bottom: 15px;
 }
@@ -284,17 +286,20 @@ div {
   line-height: normal;
   letter-spacing: 2px;
 }
-.h5 {
+.card-header {
+  text-align: center;
+}
+.bottom-text {
   flex-direction: column;
   justify-content: center;
-  text-align: center;
-  font-family: Inter;
-  font-size: 14px;
+  text-align: center;s
+  font-family: inter;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 18px; /* 128.571% */
-  color: linear-gradient(#0090f7, #ba62fc, #f2416b, #f55600);
-  background-clip: text;
+  background-color: linear-gradient(#0090f7, #ba62fc, #f2416b, #f55600);
+  __webkit-background-clip: text;
+  __webkit-background-fill-color: transparent;
 }
 .grid-buttons {
   font-size: 17px;
@@ -330,7 +335,7 @@ div {
   flex-direction: column;
   justify-content: start;
   width: 100%;
-  background-image: url("/images/ipad.png");
+  background-image: url(images/ipad.png);
   padding: 40px;
   min-height: 200px;
   text-align: center;
@@ -353,9 +358,6 @@ div {
   background-size: cover;
 }
 .card-7 {
-  display: none;
-}
-.card-8 {
   display: none;
 }
 .card-3 {
@@ -432,6 +434,10 @@ div {
   scroll-snap-align: center;
   background-size: cover;
 }
+.carousel-slide1 {
+  background-image: url(images/download.jpg);
+
+}
 .carousel-info {
   left: 47px;
   bottom: 38px;
@@ -447,6 +453,9 @@ div {
   margin-right: 14px;
   border-radius: 999px;
   background-color: #f5f5f7;
+}
+.item1 {
+  background-image: url(/images/download.jpg)";
 }
 .item11 {
   display: none;
