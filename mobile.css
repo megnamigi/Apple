@@ -21,7 +21,7 @@
   .carousel-info {
     display: none;
   }
-  .slider-item {
+  .slider-wrapper {
     width: 238px;
     height: 134px;
   }
