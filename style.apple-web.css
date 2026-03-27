@@ -619,7 +619,7 @@ div {
   transition: 0.3s;
 }
 .slider-item:hover {
-  opacity: 0;
+  color: #000;
 }
 .slider-overlay {
   align-items: center;
