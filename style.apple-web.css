@@ -296,15 +296,21 @@ div {
 .bottom-text {
   flex-direction: column;
   justify-content: center;
-  text-align: center;s
+  text-align: center;
   font-family: Inter, serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
- background: linear-gradient(90deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    90deg,
+    #0090f7 0%,
+    #ba62fc 33.33%,
+    #f2416b 66.67%,
+    #f55600 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .grid-buttons {
   font-size: 17px;
@@ -480,7 +486,7 @@ background-clip: text;
 
 .slider-wrapper {
   padding-top: 15px;
-   min-width: 417px;
+  min-width: 417px;
   height: 236px;
   overflow: hidden;
 }
@@ -492,11 +498,11 @@ background-clip: text;
   overflow: hidden;
   gap: 16px;
   padding: 10px;
-   animation-duration: 3s;
+  animation-duration: 3s;
   animation-direction: normal;
   animation-fill-mode: none;
   animation-iteration-count: infinite;
-  animation: slider 30s
+  animation: slider 30s;
 }
 
 @keyframes slider {
@@ -642,6 +648,4 @@ background-clip: text;
   text-transform: none;
   cursor: default;
   text-align: center;
-
 }
-
