@@ -336,8 +336,7 @@ a :-webkit-any-link {
   line-height: 20px; /* 125% */
   letter-spacing: -0.374px;
 }
-
-/* 4 r heseg ehlej bn */
+/* Footer */
 
 .background4 {
   gap: 12px;
@@ -366,17 +365,14 @@ a :-webkit-any-link {
 }
 
 .box {
-  /* display: flex;
+  display: flex;
   text-align: center;
   align-items: center;
   padding-block: 53px;
   flex-direction: column;
-  padding-block: 48px 58px; */
-
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+  padding-block: 48px 58px;
 }
+
 .boxcolor {
   width: 100%;
   height: 580px;
@@ -513,8 +509,6 @@ h2 {
 }
 
 .tabletsection {
-  /* width: 100%;
-  height: 1794px; */
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
@@ -541,7 +535,7 @@ h2 {
   width: 322px;
 }
 
-/* 4 r heseg shinechilsn duussn */
+/* footer finish */
 
 .background41 {
   width: 100%;
@@ -633,7 +627,7 @@ h2 {
   background-image: url("./images/pressumed-innocent.jpg");
 }
 #item10 {
-  background-image: url("./ima");
+  background-image: url("images/pachinko.jpg");
 }
 .tablist {
   width: 100%;
