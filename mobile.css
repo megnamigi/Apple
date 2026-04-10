@@ -73,6 +73,25 @@
   background-image: url(images/img8.png);
 }
 
-.scroll-item {
-  display: none;
+  .hero-container-iphone-16 {
+    background-image: url(images/mobile-2.png);
+  }
+  .grid {
+    margin: 5px;
+    width: 390px;
+    grid-template-columns: none;
+    padding: 0;
+    gap: 10px;
+  }
+  .carousel-slide {
+    width: 274px;
+    height: 495px;
+  }
+  .carousel-info {
+    display: none;
+  }
+  .slider-wrapper {
+    width: 238px;
+    height: 134px;
+  }
 }
