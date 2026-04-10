@@ -1,4 +1,5 @@
 @media (max-width: 1024px) {
+<<<<<<< HEAD
 }
 .header__link {
   display: none;
@@ -94,6 +95,41 @@
 }
 .card-5 {
   display: none;
+=======
+
+.header__link {
+    display: none;
+}
+.header center {
+    justify-content: space-between;
+}
+.hero-container-gift-magic {
+    display: none;
+}
+.hero-container-ipad {
+    background-image: url(images/ipad.png); 
+    display: block;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 65px;
+}
+            /* GRID */
+.card-1 {
+    display: none;
+}
+.card-2 {
+    display: none;
+}
+.card-3 {
+    background-image: url(images/watch2.png);
+}
+.card-5 {
+    display: none;
+>>>>>>> 538a8a3 (10 april)
 }
 .card-6 {
   display: none;
@@ -147,6 +183,7 @@
   display: block;
 }
 /* ===== Media ====== */
+<<<<<<< HEAD
 scroll {
   height: 368px;
   display: flex;
@@ -168,4 +205,20 @@ scroll {
 .footer {
   width: 100%;
   height: 236px;
+=======
+.scroll {
+  width: 100%;
+  height: 368px;
 }
+.scrollframe {
+    width: 689px;
+>>>>>>> 538a8a3 (10 april)
+}
+.footer {
+  width: 100%;
+  height: 236px;
+}
+}
+
+
+
